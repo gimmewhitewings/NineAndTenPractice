@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/listMenu">
+
+    <fragment
+        android:id="@+id/listMenu"
+        android:name="com.example.nineandtenpractice.ui.ListViewFragment"
+        android:label="ListView"
+        tools:layout="@layout/fragment_list_view" />
+    <fragment
+        android:id="@+id/complexListFragment"
+        android:name="com.example.nineandtenpractice.ui.ComplexListFragment"
+        android:label="Complex List"
+        tools:layout="@layout/fragment_complex_list" />
+    <fragment
+        android:id="@+id/buttonListFragment"
+        android:name="com.example.nineandtenpractice.ui.ButtonListFragment"
+        android:label="Button List"
+        tools:layout="@layout/fragment_button_list" />
+    <fragment
+        android:id="@+id/spinnerFragment"
+        android:name="com.example.nineandtenpractice.ui.SpinnerFragment"
+        android:label="Spinner"
+        tools:layout="@layout/fragment_spinner" />
+    <fragment
+        android:id="@+id/completeFragment"
+        android:name="com.example.nineandtenpractice.ui.CompleteFragment"
+        android:label="AutoCompletion"
+        tools:layout="@layout/fragment_complete" />
+    <fragment
+        android:id="@+id/gridFragment"
+        android:name="com.example.nineandtenpractice.ui.GridFragment"
+        android:label="GridLayout"
+        tools:layout="@layout/fragment_grid" />
+    <fragment
+        android:id="@+id/recyclerFragment"
+        android:name="com.example.nineandtenpractice.ui.RecyclerFragment"
+        android:label="RecyclerView"
+        tools:layout="@layout/fragment_recycler" />
+</navigation>

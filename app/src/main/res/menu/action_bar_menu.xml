@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Lists">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/listMenu"
+                    android:checked="true"
+                    android:title="ListView" />
+                <item
+                    android:id="@+id/complexListFragment"
+                    android:title="ComplexListView" />
+                <item
+                    android:id="@+id/buttonListFragment"
+                    android:title="ButtonList" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Spinners">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/spinnerFragment"
+                    android:title="Spinner" />
+                <item
+                    android:id="@+id/completeFragment"
+                    android:title="AutoCompletion" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Grids">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/gridFragment"
+                    android:title="GridLayout" />
+                <item
+                    android:id="@+id/recyclerFragment"
+                    android:title="RecyclerView" />
+            </group>
+        </menu>
+    </item>
+</menu>

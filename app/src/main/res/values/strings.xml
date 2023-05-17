@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NineAndTenPractice</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="countries">
+        <item>United States</item>
+        <item>Canada</item>
+        <item>United Kingdom</item>
+        <item>France</item>
+        <item>Germany</item>
+        <item>Italy</item>
+    </string-array>
+</resources>
